@@ -8,11 +8,12 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <div class="header-image">
+    <div class="header-image"> 
       <img src="./images/cityscape.jpg" alt="Cityscape!" />
     </div>
+    <!-- Makes it easier for CSS to make the image go across the screen like I want -->
 
-    <div class="container">
+    <div class="container"> <!--Allows me to use Flexbox in CSS. Interesting technique!-->
       <nav>
         <h2>Navigate Website Here</h2>
         <ul>
@@ -37,7 +38,7 @@
           career.
         </p>
         <video controls>
-          <source src="./videos/video_for_class.mp4" type="video/mp4" />
+          <source src="./videos/video_for_class.mp4" type="video/mp4" /> <!--Video didn't load without this source tag. The controls part in video allows video to play-->
           Your browser does not support this video type.
         </video>
       </main>
@@ -53,6 +54,7 @@
         </ul>
       </aside>
     </div>
+    <!-- All sections are in the div, allowing for Flexbox-->
 
     <footer>
       <p>&copy; HelloWord.com</p>
